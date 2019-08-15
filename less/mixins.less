@@ -1,1 +1,28 @@
 // Mixins in here
+.custom-btn (@bgcolor:@eastern-blue, @width:200px, @font-color:white) {
+    display: block;
+    background-color: @bgcolor;
+    color: @font-color;
+    margin: 0 8px 18px;
+    width: @width;
+    height: 45px;
+    border-radius: 10px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 5%;
+    border: 1px solid black;
+
+}
+
+
+.stack(){ 
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: left;
+}
+
+.size () {
+    width: 100%;
+    padding: 3% 0%;   
+}
